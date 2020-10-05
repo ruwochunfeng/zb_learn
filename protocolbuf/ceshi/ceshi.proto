@@ -1,0 +1,8 @@
+
+message ceshi 
+{
+   required string query = 1;
+   optional int32 page = 2;
+   optional int32 ceshi = 3;
+   
+}
