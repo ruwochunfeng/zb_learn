@@ -8,8 +8,9 @@ static void * func(void *arg)
 {
    char* result = (char*) arg;
    sleep(3);
-   printf(" result is %s\n", result);
-   
+   printf("result is %s\n", result);
+   //pthread_join(pthread_self(), &res);
+   printf("ceshi\n");
    return (void *)result;
 }
  
